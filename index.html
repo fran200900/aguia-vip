@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Águia Oficial</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .button-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            z-index: 1000;
+        }
+        .action-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+        .action-button img {
+            width: 24px;
+            height: 24px;
+        }
+        .acertos-button {
+            background-color: #ff6200;
+        }
+        .acertos-button:hover {
+            background-color: #cc4d00;
+        }
+        .banca-button {
+            background-color: #007bff;
+        }
+        .banca-button:hover {
+            background-color: #0056b3;
+        }
+        .whatsapp-button {
+            background-color: #25D366;
+        }
+        .whatsapp-button:hover {
+            background-color: #1ebe57;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="https://app.aguiaoficial.com/pr/ZXbjMC6Q" 
+            sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-pointer-lock allow-top-navigation allow-modals"
+            allowfullscreen
+            allow="clipboard-read; clipboard-write"></iframe>
+    
+    <div class="button-container">
+        <a href="https://app.acertos.club/pr/CRTgB0ZV" 
+           class="action-button acertos-button" 
+           target="_blank">
+            <img src="acertos.png" alt="Acertos">
+        </a>
+        <a href="https://app.feiticeira.vip/pr/2iCVbLKr" 
+           class="action-button banca-button" 
+           target="_blank">
+            <img src="feiticeira.png" alt="Banca Feiticeira">
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=83991852240&text=Olá%20suporte,%20preciso%20de%20ajuda" 
+           class="action-button whatsapp-button" 
+           target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
+    </div>
+</body>
+</html>
